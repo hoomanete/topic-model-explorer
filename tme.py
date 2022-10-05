@@ -21,7 +21,7 @@ from networkx.algorithms.community.quality import modularity
 from topics import TopicModel, LDA
 
 # model
-
+#I'm exploring the library
 @st.cache(allow_output_mutation=True, persist=True)
 def load_corpus(url, stopwords, multiwords):
 	return tm.load_corpus(url, stopwords, multiwords)
